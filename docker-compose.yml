@@ -1,0 +1,13 @@
+
+version: "2"
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - NODE_ENV=${NODE_ENV}

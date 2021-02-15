@@ -1,0 +1,11 @@
+.clock {
+    font-family: 'Share Tech Mono', monospace;
+    
+
+    color: #06daf7;
+    text-shadow: 0 0 20px rgb(0, 191, 255),  0 0 20px rgb(245, 0, 135);
+}
+.time {
+    font-size: 25px;
+    letter-spacing: 0.05em;
+}
